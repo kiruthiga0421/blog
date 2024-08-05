@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>BlogoSphere</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="signin.html">Sign In</a>
+            <a href="create.html">Create Blog</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search blogs...">
+            <button id="search-button">Search</button>
+        </div>
+    </header>
+    
+    
+    <div class="hero-section">
+        <div class="carousel-container">
+            <div class="carousel-images">
+                <div class="carousel-slide"><img src="images/slide1.jpg" alt="Slide 1" class="carousel-image"></div>
+                <div class="carousel-slide"><img src="images/slide2.jpeg" alt="Slide 2" class="carousel-image"></div>
+                <div class="carousel-slide"><img src="images/slide3.jpeg" alt="Slide 3" class="carousel-image"></div>
+               
+            </div>
+            <button class="carousel-prev">&lt;</button>
+            
+            <button class="carousel-next">&gt;</button>
+            <div class="about-blogs">
+                <div class="about">
+                    <p class="bb">Explore more Blogs!!!!</p>
+                    <p style="font-size: larger;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias repellat, optio nam velit saepe at impedit ad. Itaque officiis necessitatibus similique quis nisi corrupti soluta, voluptas autem aut maxime.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div id="categories">
+            <a href="#" data-category="all">All</a>
+            <a href="#" data-category="food">Food</a>
+            <a href="#" data-category="news">News</a>
+            <a href="#" data-category="technology">Technology</a>
+            <a href="#" data-category="art">Art</a>
+            <a href="#" data-category="politics">Politics</a>
+            <a href="#" data-category="tourism">Tourism</a>
+            <a href="#" data-category="education">Education</a>
+            <a href="#" data-category="media">Media</a>
+        </div>
+
+        <div id="blogs">
+             
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+          <div class="social-icons">
+            <a href="#"><img src="/images/fb.jpeg" alt="Facebook"></a>
+            <a href="#"><img src="/images/twit.jpeg" alt="Twitter"></a>
+            <a  href="#"><img src="/images/insta.jpeg" alt="Instagram"></a>
+            <a href="#"><img src="/images/link.jpeg" alt="LinkedIn"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
